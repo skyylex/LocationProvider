@@ -60,7 +60,7 @@ public class LocationProvider: NSObject, ObservableObject {
     /// The LocationProvider intializer.
     ///
     /// Creates a CLLocationManager delegate and sets the CLLocationManager properties.
-    public override init(allowsBackgroundLocationUpdates: Bool = true) {
+    public init(allowsBackgroundLocationUpdates: Bool = true) {
         super.init()
         
         self.lm.delegate = self

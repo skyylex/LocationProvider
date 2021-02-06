@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.author                = { "Luis R" => "<lri@me.com>" }  
   spec.ios.deployment_target = "13.0"
   spec.osx.deployment_target = "10.15"
-  spec.source                = { :git => "https://github.com/himbeles/LocationProvider.git", :tag => "v#{spec.version}" }
+  spec.source                = { :git => "https://github.com/skyylex/LocationProvider.git"}
   spec.source_files          = "Sources/LocationProvider/**/*.{swift}"
   spec.swift_versions = "5.1"
 end
